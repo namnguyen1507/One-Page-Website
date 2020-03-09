@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: gray;
+}
+/*---HEADER---*/
+#bg_header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 0px;
+    margin: 0px;
+}
+
+#logo{
+    height: 32px;
+    width: auto;
+    display: block;
+    float: left;
+    margin-top: 35px;
+}
+
+#navi{
+    height: 40px;
+    padding: 0;
+}
+#navi ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navi ul li{
+    display: block;
+    float: right;
+    margin-top: 40px;
+}
+#navi ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 12px;
+    margin-left: 12px;
+    color: white;
+}
+
+#icons{
+    margin-top: 35px;
+    display: block;
+}
+#icons .stack2{
+    margin-left: 20px;
+}
+#icons .hexagon{
+    background: url(../images/hexagon-green.svg) center center no-repeat;
+    height: 26px;
+    width: 26px;
+    background-size: 26px 26px;
+    position: absolute;
+}
+
+#icons .fb{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    margin-left: 10px;
+}
+#icons .tw{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    margin-left: 8px;
+}
+/*---END HEADER---*/
+/*---Backgroudn Header---*/
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+#text_header{
+    margin-top: 350px;
+    text-align: center;
+}
+#text_header h1{
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    font-weight: 3000;
+}
+#text_header p{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#text_header button{
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    background-color: #14bf98;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+}
